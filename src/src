@@ -1,0 +1,13 @@
+src/
+  └── components/
+        ├── Navbar.tsx
+        ├── BudgetCard.tsx
+  ├── App.tsx
+  ├── main.tsx
+  ├── index.css
+  └── assets/
+        ├── icons/
+            ├── home.svg
+            ├── budget.svg
+            ├── account.svg
+            └── report.svg

@@ -1,0 +1,48 @@
+.budget-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .label {
+    font-weight: 600;
+    flex: 1;
+  }
+  
+  .progress-wrapper {
+    flex: 2;
+    padding: 0 1rem;
+  }
+  
+  .progress-bar-bg {
+    width: 100%;
+    height: 8px;
+    background-color: #e5e7eb;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #3b82f6;
+    border-radius: 999px;
+  }
+  
+  .amount {
+    text-align: right;
+    flex: 1;
+  }
+  
+  .amount strong {
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .amount span {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }

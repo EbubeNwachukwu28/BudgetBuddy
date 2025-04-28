@@ -1,22 +1,25 @@
 import React from "react";
 import {
   ResponsiveContainer,
-  AreaChart,
-  Area,
+  BarChart,
+  Bar,
   XAxis,
   YAxis,
   Tooltip,
 } from "recharts";
-import { monthlyData } from "../data/sampleData";
 
-const ReportsChart: React.FC = () => (
-  <ResponsiveContainer width="100%" height={300}>
-    <AreaChart data={monthlyData}>
+export interface ReportsChartProps {
+  data: { month: string; amount: number }[];
+}
+
+const ReportsChart: React.FC<ReportsChartProps> = ({ data }) => (
+  <ResponsiveContainer width="100%" height={200}>
+    <BarChart data={data}>
       <XAxis dataKey="month" />
-      <YAxis />
+      <YAxis domain={[0, "dataMax"]} />
       <Tooltip />
-      <Area type="monotone" dataKey="amount" stroke="#3B82F6" fill="#DBEAFE" />
-    </AreaChart>
+      <Bar dataKey="amount" fill="#3B82F6" />
+    </BarChart>
   </ResponsiveContainer>
 );
 

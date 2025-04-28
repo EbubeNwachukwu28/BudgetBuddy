@@ -11,7 +11,7 @@ const links = [
 const Navbar: React.FC = () => (
   <nav className="bg-white shadow">
     <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-      <h1 className="text-xl font-bold">Finance App</h1>
+      <h1 className="text-xl font-bold">Budget Buddy</h1>
       <div className="flex space-x-6">
         {links.map((link) => (
           <NavLink

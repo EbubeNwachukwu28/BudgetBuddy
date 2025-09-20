@@ -1,3 +1,40 @@
+# 💰 Budget Buddy  
+
+Budget Buddy is a personal finance dashboard that helps users track income, expenses, and savings goals. Built with **React + TypeScript**, **Tailwind CSS**, and **Supabase**, it provides a clean and interactive interface for managing finances with ease.  
+
+---
+
+## 🚀 Features  
+
+- 📊 Dashboard overview of accounts, income, and expenses  
+- 📝 Add, edit, and delete transactions  
+- 🏦 Manage multiple accounts (checking, savings, credit, etc.)  
+- 📈 Reports & analytics (spending categories, monthly breakdowns)  
+- 💡 Smart suggestions for saving and budgeting (planned)  
+- 🔐 User authentication with Supabase Auth  
+- ☁️ Secure cloud-based data storage  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React, TypeScript, Tailwind CSS  
+- **Backend**: Supabase (PostgreSQL + Auth)  
+- **Database**: PostgreSQL via Supabase  
+- **Version Control**: GitHub  
+
+---
+
+## 📦 Installation  
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/budget-buddy.git
+   cd budget-buddy
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
